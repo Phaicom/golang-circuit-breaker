@@ -31,6 +31,6 @@ func main() {
 	n := negroni.Classic()
 	n.UseHandler(r)
 
-	log.Printf("listening on %s\n", PORT)
+	log.Printf("upstream server listening on %s\n", PORT)
 	http.ListenAndServe(PORT, n)
 }
