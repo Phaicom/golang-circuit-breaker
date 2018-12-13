@@ -7,13 +7,13 @@ Hystrix Circuit Breaker implemented in Golang
 
 ## Installing
 
-Install dependencie
+Install dependencies
 
 ```bash
 $ make deps
 ```
 
-Next, start both downstream and upstream service
+Next, start both downstream and upstream services
 
 ```
 $ go run downstream/main.go
